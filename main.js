@@ -46,11 +46,11 @@ function animate() {
     cubes[0].rotation.x += 0.01;
     cubes[0].rotation.y += 0.01;
     
-    cubes[1].rotation.x += 0.02;
-    cubes[1].rotation.y += 0.02;
+    cubes[1].rotation.x += 0.03;
+    cubes[1].rotation.y += 0.03;
     
-    cubes[2].rotation.x += 0.05;
-    cubes[2].rotation.y += 0.05;
+    cubes[2].rotation.x += 0.06;
+    cubes[2].rotation.y += 0.06;
     
     renderer.render(scene, camera);
 }
